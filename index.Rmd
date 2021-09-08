@@ -1,0 +1,5 @@
+---
+title: "My website"
+---
+
+Hi! Welcome to my very first website! On here you will find some background info about myself, where I share some of my academic and non-academic interests.
