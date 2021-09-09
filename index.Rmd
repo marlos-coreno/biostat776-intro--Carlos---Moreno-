@@ -1,5 +1,10 @@
 ---
 title: "My website"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'Mywebsite.html'))})
 ---
 
 Hi! Welcome to my very first website! On here you will find some background info about myself, where I share some of my academic and non-academic interests.
